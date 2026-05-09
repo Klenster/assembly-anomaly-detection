@@ -3,4 +3,7 @@ Autoencoder/venv/
 
 # Python cache files
 __pycache__/
-*.pyc
+*.pyc 
+
+# vscode file
+.vscode
