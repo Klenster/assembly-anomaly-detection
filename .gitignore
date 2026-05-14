@@ -1,0 +1,9 @@
+# Python virtual environment
+Autoencoder/venv/
+
+# Python cache files
+__pycache__/
+*.pyc 
+
+# vscode file
+.vscode
