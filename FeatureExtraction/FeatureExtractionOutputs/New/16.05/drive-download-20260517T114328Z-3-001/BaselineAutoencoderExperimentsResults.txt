@@ -1,0 +1,584 @@
+(venv) PS C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001>   python BaselineAutoencoderExperiments.py
+BASE_DIR: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001
+OUTPUT_DIR: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results
+DEVICE: cpu
+
+==========================================================================================
+POOLED EXPERIMENT: 01_slowfast_handpose_pooled
+==========================================================================================
+Loaded: train_features_correct.npy | shape=(3756, 6336) | dtype=float32
+Loaded: test_features.npy | shape=(5034, 6336) | dtype=float32
+Loaded: test_window_labels.npy | shape=(5034,) | dtype=int32
+
+--- Data Check ---
+Train shape: (3756, 6336)
+Test shape : (5034, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([3756, 1278]))
+Epoch 000 | Train Loss: 0.635746 | Val Loss: 0.448773
+Epoch 010 | Train Loss: 0.262039 | Val Loss: 0.247584
+Epoch 020 | Train Loss: 0.248433 | Val Loss: 0.230631
+Epoch 030 | Train Loss: 0.287113 | Val Loss: 0.247109
+Epoch 040 | Train Loss: 0.243729 | Val Loss: 0.219853
+Epoch 050 | Train Loss: 0.242730 | Val Loss: 0.207828
+Epoch 060 | Train Loss: 0.225078 | Val Loss: 0.200764
+Epoch 070 | Train Loss: 0.242961 | Val Loss: 0.207036
+Early stopping at epoch 75
+Best epoch: 60
+Best val loss: 0.20076374555675114
+Threshold (85th percentile): 0.2829383313655853
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\01_slowfast_handpose_pooled\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\01_slowfast_handpose_pooled\test_results.csv
+
+Metrics:
+{
+    "experiment": "01_slowfast_handpose_pooled",
+    "mode": "pooled",
+    "input_dim": 6336,
+    "train_count": 3756,
+    "test_count": 5034,
+    "test_correct_count": 3756,
+    "test_anomaly_count": 1278,
+    "threshold": 0.2829383313655853,
+    "accuracy": 0.7169249106078666,
+    "precision": 0.3914327917282127,
+    "recall": 0.20735524256651017,
+    "f1": 0.2710997442455243,
+    "auc": 0.6133786359144097,
+    "tn": 3344,
+    "fp": 412,
+    "fn": 1013,
+    "tp": 265,
+    "false_positive_rate": 0.10969116080937168,
+    "false_negative_rate": 0.7926447574334898,
+    "flagged_as_anomaly": 677,
+    "total_test": 5034
+}
+
+==========================================================================================
+PER-CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10095
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10095.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10095.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.955670 | Val Loss: 0.793100
+Epoch 010 | Train Loss: 0.349247 | Val Loss: 0.361230
+Epoch 020 | Train Loss: 0.282688 | Val Loss: 0.308135
+Epoch 030 | Train Loss: 0.246581 | Val Loss: 0.276033
+Epoch 040 | Train Loss: 0.226757 | Val Loss: 0.258841
+Epoch 050 | Train Loss: 0.214008 | Val Loss: 0.258658
+Epoch 060 | Train Loss: 0.203473 | Val Loss: 0.247186
+Epoch 070 | Train Loss: 0.195323 | Val Loss: 0.246075
+Best epoch: 74
+Best val loss: 0.24151630044742756
+Threshold (85th percentile): 0.36730486154556274
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10095\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10095\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10115
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10115.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10115.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10115.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.978290 | Val Loss: 0.853060
+Epoch 010 | Train Loss: 0.339104 | Val Loss: 0.339299
+Epoch 020 | Train Loss: 0.268538 | Val Loss: 0.283925
+Epoch 030 | Train Loss: 0.239419 | Val Loss: 0.259081
+Epoch 040 | Train Loss: 0.222470 | Val Loss: 0.246330
+Epoch 050 | Train Loss: 0.207916 | Val Loss: 0.239347
+Epoch 060 | Train Loss: 0.201568 | Val Loss: 0.234138
+Epoch 070 | Train Loss: 0.191400 | Val Loss: 0.228517
+Best epoch: 79
+Best val loss: 0.22633607068638892
+Threshold (85th percentile): 0.3196033537387848
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10115\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10115\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10118
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10118.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10118.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.954056 | Val Loss: 0.832894
+Epoch 010 | Train Loss: 0.372799 | Val Loss: 0.411012
+Epoch 020 | Train Loss: 0.295576 | Val Loss: 0.340200
+Epoch 030 | Train Loss: 0.253452 | Val Loss: 0.307468
+Epoch 040 | Train Loss: 0.232116 | Val Loss: 0.285191
+Epoch 050 | Train Loss: 0.220376 | Val Loss: 0.277639
+Epoch 060 | Train Loss: 0.209059 | Val Loss: 0.273777
+Epoch 070 | Train Loss: 0.200730 | Val Loss: 0.269096
+Best epoch: 73
+Best val loss: 0.2635868874135291
+Threshold (85th percentile): 0.3849157691001892
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10118\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10118\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10119
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10119.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10119.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.982389 | Val Loss: 0.905251
+Epoch 010 | Train Loss: 0.359829 | Val Loss: 0.398719
+Epoch 020 | Train Loss: 0.288114 | Val Loss: 0.328701
+Epoch 030 | Train Loss: 0.252214 | Val Loss: 0.297793
+Epoch 040 | Train Loss: 0.227947 | Val Loss: 0.280832
+Epoch 050 | Train Loss: 0.214389 | Val Loss: 0.263487
+Epoch 060 | Train Loss: 0.203850 | Val Loss: 0.262276
+Epoch 070 | Train Loss: 0.196422 | Val Loss: 0.254313
+Best epoch: 78
+Best val loss: 0.2500872494308812
+Threshold (85th percentile): 0.3467399775981903
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10119\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10119\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10390
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10390.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10390.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.971911 | Val Loss: 0.786781
+Epoch 010 | Train Loss: 0.343589 | Val Loss: 0.346089
+Epoch 020 | Train Loss: 0.282551 | Val Loss: 0.293576
+Epoch 030 | Train Loss: 0.246137 | Val Loss: 0.285945
+Epoch 040 | Train Loss: 0.221580 | Val Loss: 0.253710
+Epoch 050 | Train Loss: 0.211657 | Val Loss: 0.250046
+Epoch 060 | Train Loss: 0.205456 | Val Loss: 0.237133
+Epoch 070 | Train Loss: 0.201962 | Val Loss: 0.250893
+Best epoch: 65
+Best val loss: 0.2342350939466695
+Threshold (85th percentile): 0.3231029212474823
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10390\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10390\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 02_slowfast_handpose_per_camera | C10404
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_C10404.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10404.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 6336)
+Test shape : (839, 6336)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.968975 | Val Loss: 0.860619
+Epoch 010 | Train Loss: 0.322004 | Val Loss: 0.331078
+Epoch 020 | Train Loss: 0.261399 | Val Loss: 0.280489
+Epoch 030 | Train Loss: 0.238244 | Val Loss: 0.261790
+Epoch 040 | Train Loss: 0.213278 | Val Loss: 0.252528
+Epoch 050 | Train Loss: 0.200590 | Val Loss: 0.245540
+Epoch 060 | Train Loss: 0.190340 | Val Loss: 0.236219
+Epoch 070 | Train Loss: 0.190750 | Val Loss: 0.231118
+Best epoch: 73
+Best val loss: 0.22587631851624532
+Threshold (85th percentile): 0.31920987367630005
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10404\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\02_slowfast_handpose_per_camera\C10404\test_results.csv
+
+Fusion metrics:
+[
+    {
+        "experiment": "02_slowfast_handpose_per_camera",
+        "mode": "fusion_mean",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.7818831942789034,
+        "precision": 0.7419354838709677,
+        "recall": 0.215962441314554,
+        "f1": 0.33454545454545453,
+        "auc": 0.8812116575919843,
+        "tn": 610,
+        "fp": 16,
+        "fn": 167,
+        "tp": 46,
+        "false_positive_rate": 0.025559105431309903,
+        "false_negative_rate": 0.784037558685446,
+        "flagged_as_anomaly": 62,
+        "total_test": 839
+    },
+    {
+        "experiment": "02_slowfast_handpose_per_camera",
+        "mode": "fusion_max",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.8033373063170441,
+        "precision": 0.6090909090909091,
+        "recall": 0.6291079812206573,
+        "f1": 0.6189376443418014,
+        "auc": 0.8651547195848146,
+        "tn": 540,
+        "fp": 86,
+        "fn": 79,
+        "tp": 134,
+        "false_positive_rate": 0.13738019169329074,
+        "false_negative_rate": 0.37089201877934275,
+        "flagged_as_anomaly": 220,
+        "total_test": 839
+    },
+    {
+        "experiment": "02_slowfast_handpose_per_camera",
+        "mode": "fusion_top2_mean",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.8081048867699643,
+        "precision": 0.6585365853658537,
+        "recall": 0.5070422535211268,
+        "f1": 0.5729442970822282,
+        "auc": 0.8782042628508002,
+        "tn": 570,
+        "fp": 56,
+        "fn": 105,
+        "tp": 108,
+        "false_positive_rate": 0.08945686900958466,
+        "false_negative_rate": 0.49295774647887325,
+        "flagged_as_anomaly": 164,
+        "total_test": 839
+    }
+]
+
+==========================================================================================
+POOLED EXPERIMENT: 03_tsm_handpose_pooled
+==========================================================================================
+Loaded: train_features_correct_tsm.npy | shape=(3130, 4064) | dtype=float32
+Loaded: test_features_tsm.npy | shape=(4195, 4064) | dtype=float32
+Loaded: test_window_labels_tsm.npy | shape=(4195,) | dtype=int32
+
+--- Data Check ---
+Train shape: (3130, 4064)
+Test shape : (4195, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([3130, 1065]))
+Epoch 000 | Train Loss: 0.702418 | Val Loss: 0.483864
+Epoch 010 | Train Loss: 0.223037 | Val Loss: 0.208883
+Epoch 020 | Train Loss: 0.200954 | Val Loss: 0.175115
+Epoch 030 | Train Loss: 0.190464 | Val Loss: 0.167019
+Epoch 040 | Train Loss: 0.187167 | Val Loss: 0.162721
+Epoch 050 | Train Loss: 0.182991 | Val Loss: 0.167364
+Epoch 060 | Train Loss: 0.178143 | Val Loss: 0.152701
+Epoch 070 | Train Loss: 0.180587 | Val Loss: 0.153261
+Best epoch: 74
+Best val loss: 0.15070114226709685
+Threshold (85th percentile): 0.21169209480285645
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\03_tsm_handpose_pooled\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\03_tsm_handpose_pooled\test_results.csv
+
+Metrics:
+{
+    "experiment": "03_tsm_handpose_pooled",
+    "mode": "pooled",
+    "input_dim": 4064,
+    "train_count": 3130,
+    "test_count": 4195,
+    "test_correct_count": 3130,
+    "test_anomaly_count": 1065,
+    "threshold": 0.21169209480285645,
+    "accuracy": 0.7597139451728248,
+    "precision": 0.5429864253393665,
+    "recall": 0.3380281690140845,
+    "f1": 0.4166666666666667,
+    "auc": 0.7355346562870301,
+    "tn": 2827,
+    "fp": 303,
+    "fn": 705,
+    "tp": 360,
+    "false_positive_rate": 0.09680511182108627,
+    "false_negative_rate": 0.6619718309859155,
+    "flagged_as_anomaly": 663,
+    "total_test": 4195
+}
+
+==========================================================================================
+PER-CAMERA EXPERIMENT: 04_tsm_handpose_per_camera
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 04_tsm_handpose_per_camera | C10095
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_tsm_C10095.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10095.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 4064)
+Test shape : (839, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.963572 | Val Loss: 0.837575
+Epoch 010 | Train Loss: 0.325450 | Val Loss: 0.321026
+Epoch 020 | Train Loss: 0.249014 | Val Loss: 0.280313
+Epoch 030 | Train Loss: 0.205777 | Val Loss: 0.222869
+Epoch 040 | Train Loss: 0.191374 | Val Loss: 0.205779
+Epoch 050 | Train Loss: 0.175217 | Val Loss: 0.193114
+Epoch 060 | Train Loss: 0.166502 | Val Loss: 0.193344
+Epoch 070 | Train Loss: 0.165003 | Val Loss: 0.183863
+Best epoch: 79
+Best val loss: 0.17925164388243559
+Threshold (85th percentile): 0.2545067071914673
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10095\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10095\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 04_tsm_handpose_per_camera | C10118
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_tsm_C10118.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10118.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 4064)
+Test shape : (839, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.951278 | Val Loss: 0.818205
+Epoch 010 | Train Loss: 0.356790 | Val Loss: 0.373266
+Epoch 020 | Train Loss: 0.263208 | Val Loss: 0.286774
+Epoch 030 | Train Loss: 0.222702 | Val Loss: 0.248214
+Epoch 040 | Train Loss: 0.207385 | Val Loss: 0.228994
+Epoch 050 | Train Loss: 0.190526 | Val Loss: 0.226575
+Epoch 060 | Train Loss: 0.185038 | Val Loss: 0.236208
+Epoch 070 | Train Loss: 0.175314 | Val Loss: 0.219865
+Best epoch: 78
+Best val loss: 0.20276380562858218
+Threshold (85th percentile): 0.31274354457855225
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10118\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10118\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 04_tsm_handpose_per_camera | C10119
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_tsm_C10119.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10119.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 4064)
+Test shape : (839, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.976461 | Val Loss: 0.852117
+Epoch 010 | Train Loss: 0.314235 | Val Loss: 0.313139
+Epoch 020 | Train Loss: 0.239168 | Val Loss: 0.249173
+Epoch 030 | Train Loss: 0.202608 | Val Loss: 0.223602
+Epoch 040 | Train Loss: 0.187132 | Val Loss: 0.211440
+Epoch 050 | Train Loss: 0.172589 | Val Loss: 0.194774
+Epoch 060 | Train Loss: 0.162976 | Val Loss: 0.187934
+Epoch 070 | Train Loss: 0.157527 | Val Loss: 0.184562
+Best epoch: 75
+Best val loss: 0.1772491154587193
+Threshold (85th percentile): 0.25962239503860474
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10119\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10119\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 04_tsm_handpose_per_camera | C10390
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_tsm_C10390.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10390.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 4064)
+Test shape : (839, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.944372 | Val Loss: 0.774812
+Epoch 010 | Train Loss: 0.314200 | Val Loss: 0.327518
+Epoch 020 | Train Loss: 0.234507 | Val Loss: 0.247917
+Epoch 030 | Train Loss: 0.203038 | Val Loss: 0.213876
+Epoch 040 | Train Loss: 0.179609 | Val Loss: 0.197159
+Epoch 050 | Train Loss: 0.165821 | Val Loss: 0.190284
+Epoch 060 | Train Loss: 0.159762 | Val Loss: 0.182440
+Epoch 070 | Train Loss: 0.155109 | Val Loss: 0.179030
+Best epoch: 73
+Best val loss: 0.17240218580908076
+Threshold (85th percentile): 0.24710151553153992
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10390\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10390\test_results.csv
+
+------------------------------------------------------------------------------------------
+CAMERA EXPERIMENT: 04_tsm_handpose_per_camera | C10404
+------------------------------------------------------------------------------------------
+Loaded: train_features_correct_tsm_C10404.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10404.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+--- Data Check ---
+Train shape: (626, 4064)
+Test shape : (839, 4064)
+Train NaN/Inf: OK
+Test NaN/Inf : OK
+Test labels: (array([0, 1]), array([626, 213]))
+Epoch 000 | Train Loss: 0.959830 | Val Loss: 0.793552
+Epoch 010 | Train Loss: 0.272666 | Val Loss: 0.281191
+Epoch 020 | Train Loss: 0.203454 | Val Loss: 0.206078
+Epoch 030 | Train Loss: 0.173765 | Val Loss: 0.178881
+Epoch 040 | Train Loss: 0.153330 | Val Loss: 0.161367
+Epoch 050 | Train Loss: 0.143903 | Val Loss: 0.159279
+Epoch 060 | Train Loss: 0.141000 | Val Loss: 0.153511
+Epoch 070 | Train Loss: 0.126320 | Val Loss: 0.147059
+Best epoch: 73
+Best val loss: 0.14243598016583994
+Threshold (85th percentile): 0.22559194266796112
+Plot saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10404\error_distribution.png
+Results saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\04_tsm_handpose_per_camera\C10404\test_results.csv
+
+Fusion metrics:
+[
+    {
+        "experiment": "04_tsm_handpose_per_camera",
+        "mode": "fusion_mean",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.8402860548271752,
+        "precision": 0.816,
+        "recall": 0.4788732394366197,
+        "f1": 0.6035502958579881,
+        "auc": 0.9384346547870824,
+        "tn": 603,
+        "fp": 23,
+        "fn": 111,
+        "tp": 102,
+        "false_positive_rate": 0.036741214057507986,
+        "false_negative_rate": 0.5211267605633803,
+        "flagged_as_anomaly": 125,
+        "total_test": 839
+    },
+    {
+        "experiment": "04_tsm_handpose_per_camera",
+        "mode": "fusion_max",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.8808104886769964,
+        "precision": 0.748898678414097,
+        "recall": 0.7981220657276995,
+        "f1": 0.7727272727272727,
+        "auc": 0.9382996595119172,
+        "tn": 569,
+        "fp": 57,
+        "fn": 43,
+        "tp": 170,
+        "false_positive_rate": 0.09105431309904154,
+        "false_negative_rate": 0.20187793427230047,
+        "flagged_as_anomaly": 227,
+        "total_test": 839
+    },
+    {
+        "experiment": "04_tsm_handpose_per_camera",
+        "mode": "fusion_top2_mean",
+        "camera": "ALL",
+        "input_dim": null,
+        "train_count": null,
+        "test_count": 839,
+        "test_correct_count": 626,
+        "test_anomaly_count": 213,
+        "threshold": 1.0,
+        "accuracy": 0.8867699642431466,
+        "precision": 0.7892156862745098,
+        "recall": 0.755868544600939,
+        "f1": 0.7721822541966427,
+        "auc": 0.9410745623903163,
+        "tn": 583,
+        "fp": 43,
+        "fn": 52,
+        "tp": 161,
+        "false_positive_rate": 0.06869009584664537,
+        "false_negative_rate": 0.24413145539906103,
+        "flagged_as_anomaly": 204,
+        "total_test": 839
+    }
+]
+
+==========================================================================================
+ALL BASELINE EXPERIMENTS FINISHED
+Summary saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\BaselineAE_Results\baseline_summary.csv
+==========================================================================================
+
+Best results by F1:
+04_tsm_handpose_per_camera | fusion_max | camera=ALL | F1=0.7727 | Precision=0.7489 | Recall=0.7981 | AUC=0.9382996595119172
+04_tsm_handpose_per_camera | fusion_top2_mean | camera=ALL | F1=0.7722 | Precision=0.7892 | Recall=0.7559 | AUC=0.9410745623903163
+04_tsm_handpose_per_camera | per_camera | camera=C10095 | F1=0.7065 | Precision=0.8387 | Recall=0.6103 | AUC=0.9365447209347673
+02_slowfast_handpose_per_camera | fusion_max | camera=ALL | F1=0.6189 | Precision=0.6091 | Recall=0.6291 | AUC=0.8651547195848146
+04_tsm_handpose_per_camera | per_camera | camera=C10119 | F1=0.6100 | Precision=0.8125 | Recall=0.4883 | AUC=0.9136555220567281
+04_tsm_handpose_per_camera | fusion_mean | camera=ALL | F1=0.6036 | Precision=0.8160 | Recall=0.4789 | AUC=0.9384346547870824
+04_tsm_handpose_per_camera | per_camera | camera=C10390 | F1=0.5841 | Precision=0.7857 | Recall=0.4648 | AUC=0.9064257750978716
+02_slowfast_handpose_per_camera | fusion_top2_mean | camera=ALL | F1=0.5729 | Precision=0.6585 | Recall=0.5070 | AUC=0.8782042628508002
+04_tsm_handpose_per_camera | per_camera | camera=C10118 | F1=0.5455 | Precision=0.7692 | Recall=0.4225 | AUC=0.905075822346218
+04_tsm_handpose_per_camera | per_camera | camera=C10404 | F1=0.5185 | Precision=0.7568 | Recall=0.3944 | AUC=0.8627998020069297
+(venv) PS C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001> 
