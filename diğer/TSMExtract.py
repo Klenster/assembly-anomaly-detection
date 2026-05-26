@@ -545,6 +545,7 @@ def run_test_extractor(full_df, video_dir, json_dir, feature_extractor,
     sequence_labels         = []
     sequence_window_labels  = []
     sequence_ids            = []
+    sequence_window_times   = []
 
     pose_ds = AssemblyHybridDataset(video_dir, json_dir, full_df)
 
@@ -568,6 +569,7 @@ def run_test_extractor(full_df, video_dir, json_dir, feature_extractor,
 
             seq_wins  = []
             seq_wlbls = []
+            seq_wtimes = []
 
             for _, anno in session_df.iterrows():
                 s_sec        = anno['start_frame'] / ANNOTATION_FPS
@@ -601,6 +603,7 @@ def run_test_extractor(full_df, video_dir, json_dir, feature_extractor,
                     # Sequence
                     seq_wins.append(combined_np)
                     seq_wlbls.append(window_label)
+                    seq_wtimes.append(ws)    
 
             if not seq_wins:
                 continue
@@ -612,6 +615,8 @@ def run_test_extractor(full_df, video_dir, json_dir, feature_extractor,
             sequence_labels.append(1 if has_anomaly else 0)
             sequence_window_labels.append(wlbl_arr)
             sequence_ids.append(f"{video_id}_{camera}")
+            sequence_window_times.append(
+                np.array(seq_wtimes, dtype=np.float32))
 
             n_c = (wlbl_arr == 0).sum()
             n_a = (wlbl_arr == 1).sum()
@@ -638,6 +643,8 @@ def run_test_extractor(full_df, video_dir, json_dir, feature_extractor,
             np.array(sequence_window_labels, dtype=object), allow_pickle=True)
     np.save("test_sequence_ids_tsm.npy",
             np.array(sequence_ids,           dtype=object), allow_pickle=True)
+    np.save("test_sequence_window_times.npy",
+        np.array(sequence_window_times, dtype=object),allow_pickle=True)
 
     lengths = [len(s) for s in sequences]
     print(f"✅ Sequences: test_sequences_tsm.npy | {len(sequences)} seqs | "
@@ -701,6 +708,7 @@ if __name__ == "__main__":
     # -----------------------------------------------------------------------
     # Train extraction
     # -----------------------------------------------------------------------
+    """"
     train_dataset = AssemblyHybridDataset(VIDEO_DIR, JSON_DIR, train_df)
     run_train_extractor(
         train_dataset,
@@ -730,7 +738,7 @@ if __name__ == "__main__":
         torch.cuda.empty_cache()
         torch.cuda.synchronize()
     print("Memory cleared.")
-
+     """
     # -----------------------------------------------------------------------
     # Test extraction
     # -----------------------------------------------------------------------
