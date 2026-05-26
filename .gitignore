@@ -7,3 +7,11 @@ __pycache__/
 
 # vscode file
 .vscode
+# NumPy feature tables
+*.npy
+
+# Hand pose JSON files
+*.json
+
+# Video files
+*.mp4
