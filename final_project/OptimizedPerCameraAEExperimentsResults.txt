@@ -1,0 +1,495 @@
+.05\drive-download-20260517T114328Z-3-001> python OptimizedPerCameraAEExperiments.py                                                                        
+BASE_DIR: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001
+OUTPUT_DIR: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\OptimizedPerCameraAE_Results
+DEVICE: cuda
+
+====================================================================================================
+FEATURE FAMILY: SLOWFAST
+====================================================================================================
+
+====================================================================================================
+MODEL CONFIG: slowfast | slowfast_small
+====================================================================================================
+Loaded: train_features_correct_C10095.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10095.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.985605 | Val Loss: 0.907547
+Epoch 020 | Train Loss: 0.395491 | Val Loss: 0.397017
+Epoch 040 | Train Loss: 0.344866 | Val Loss: 0.334779
+Epoch 060 | Train Loss: 0.324261 | Val Loss: 0.364394
+Early stopping at epoch 74
+Loaded: train_features_correct_C10115.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10115.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10115.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10115
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.991928 | Val Loss: 0.879012
+Epoch 020 | Train Loss: 0.384099 | Val Loss: 0.368536
+Epoch 040 | Train Loss: 0.331951 | Val Loss: 0.336375
+Epoch 060 | Train Loss: 0.311993 | Val Loss: 0.299670
+Epoch 080 | Train Loss: 0.287007 | Val Loss: 0.311574
+Early stopping at epoch 95
+Loaded: train_features_correct_C10118.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10118.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.968837 | Val Loss: 0.899932
+Epoch 020 | Train Loss: 0.402681 | Val Loss: 0.455623
+Epoch 040 | Train Loss: 0.365590 | Val Loss: 0.379777
+Epoch 060 | Train Loss: 0.337801 | Val Loss: 0.377773
+Epoch 080 | Train Loss: 0.319874 | Val Loss: 0.338110
+Epoch 100 | Train Loss: 0.304138 | Val Loss: 0.366050
+Loaded: train_features_correct_C10119.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10119.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.996807 | Val Loss: 1.017803
+Epoch 020 | Train Loss: 0.398318 | Val Loss: 0.426238
+Epoch 040 | Train Loss: 0.339759 | Val Loss: 0.392501
+Epoch 060 | Train Loss: 0.322652 | Val Loss: 0.339569
+Epoch 080 | Train Loss: 0.305460 | Val Loss: 0.321266
+Early stopping at epoch 90
+Loaded: train_features_correct_C10390.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10390.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.978537 | Val Loss: 0.809507
+Epoch 020 | Train Loss: 0.383528 | Val Loss: 0.372255
+Epoch 040 | Train Loss: 0.334529 | Val Loss: 0.333675
+Epoch 060 | Train Loss: 0.312758 | Val Loss: 0.315960
+Early stopping at epoch 61
+Loaded: train_features_correct_C10404.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10404.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_small | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.979561 | Val Loss: 0.840826
+Epoch 020 | Train Loss: 0.361143 | Val Loss: 0.348589
+Epoch 040 | Train Loss: 0.327952 | Val Loss: 0.318207
+Epoch 060 | Train Loss: 0.297590 | Val Loss: 0.303659
+Epoch 080 | Train Loss: 0.273387 | Val Loss: 0.290471
+Epoch 100 | Train Loss: 0.280944 | Val Loss: 0.284533
+
+====================================================================================================
+MODEL CONFIG: slowfast | slowfast_medium
+====================================================================================================
+Loaded: train_features_correct_C10095.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10095.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.942689 | Val Loss: 0.718377
+Epoch 020 | Train Loss: 0.371471 | Val Loss: 0.447067
+Epoch 040 | Train Loss: 0.321263 | Val Loss: 0.352647
+Epoch 060 | Train Loss: 0.294503 | Val Loss: 0.314244
+Epoch 080 | Train Loss: 0.287866 | Val Loss: 0.318935
+Epoch 100 | Train Loss: 0.273683 | Val Loss: 0.296327
+Loaded: train_features_correct_C10115.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10115.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10115.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10115
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.931006 | Val Loss: 0.729162
+Epoch 020 | Train Loss: 0.361590 | Val Loss: 0.353415
+Epoch 040 | Train Loss: 0.305449 | Val Loss: 0.300742
+Epoch 060 | Train Loss: 0.279105 | Val Loss: 0.279513
+Epoch 080 | Train Loss: 0.302648 | Val Loss: 0.279477
+Epoch 100 | Train Loss: 0.271600 | Val Loss: 0.311247
+Loaded: train_features_correct_C10118.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10118.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.898541 | Val Loss: 0.732864
+Epoch 020 | Train Loss: 0.383089 | Val Loss: 0.418558
+Epoch 040 | Train Loss: 0.337543 | Val Loss: 0.397773
+Epoch 060 | Train Loss: 0.311520 | Val Loss: 0.339873
+Epoch 080 | Train Loss: 0.292140 | Val Loss: 0.335299
+Early stopping at epoch 97
+Loaded: train_features_correct_C10119.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10119.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.932645 | Val Loss: 0.794279
+Epoch 020 | Train Loss: 0.368704 | Val Loss: 0.386919
+Epoch 040 | Train Loss: 0.321678 | Val Loss: 0.345799
+Epoch 060 | Train Loss: 0.295850 | Val Loss: 0.347714
+Epoch 080 | Train Loss: 0.272349 | Val Loss: 0.308101
+Epoch 100 | Train Loss: 0.270988 | Val Loss: 0.319854
+Early stopping at epoch 106
+Loaded: train_features_correct_C10390.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10390.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.950479 | Val Loss: 0.690186
+Epoch 020 | Train Loss: 0.361151 | Val Loss: 0.396789
+Epoch 040 | Train Loss: 0.318337 | Val Loss: 0.358329
+Epoch 060 | Train Loss: 0.280976 | Val Loss: 0.294692
+Epoch 080 | Train Loss: 0.289015 | Val Loss: 0.295755
+Epoch 100 | Train Loss: 0.266023 | Val Loss: 0.288916
+Loaded: train_features_correct_C10404.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10404.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.931631 | Val Loss: 0.782330
+Epoch 020 | Train Loss: 0.342480 | Val Loss: 0.347246
+Epoch 040 | Train Loss: 0.298630 | Val Loss: 0.337907
+Epoch 060 | Train Loss: 0.283791 | Val Loss: 0.301423
+Epoch 080 | Train Loss: 0.267778 | Val Loss: 0.324218
+Early stopping at epoch 89
+
+====================================================================================================
+MODEL CONFIG: slowfast | slowfast_medium_regularized
+====================================================================================================
+Loaded: train_features_correct_C10095.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10095.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.982891 | Val Loss: 0.851150
+Epoch 020 | Train Loss: 0.462149 | Val Loss: 0.467595
+Epoch 040 | Train Loss: 0.411497 | Val Loss: 0.396843
+Epoch 060 | Train Loss: 0.380927 | Val Loss: 0.386238
+Epoch 080 | Train Loss: 0.401782 | Val Loss: 0.423266
+Early stopping at epoch 82
+Loaded: train_features_correct_C10115.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10115.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10115.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10115
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.970712 | Val Loss: 0.836993
+Epoch 020 | Train Loss: 0.445214 | Val Loss: 0.444199
+Epoch 040 | Train Loss: 0.363968 | Val Loss: 0.391715
+Epoch 060 | Train Loss: 0.357683 | Val Loss: 0.354452
+Epoch 080 | Train Loss: 0.354820 | Val Loss: 0.363936
+Epoch 100 | Train Loss: 0.351581 | Val Loss: 0.365449
+Loaded: train_features_correct_C10118.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10118.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.982206 | Val Loss: 0.846687
+Epoch 020 | Train Loss: 0.480327 | Val Loss: 0.515939
+Epoch 040 | Train Loss: 0.421375 | Val Loss: 0.480550
+Epoch 060 | Train Loss: 0.407229 | Val Loss: 0.429641
+Epoch 080 | Train Loss: 0.393705 | Val Loss: 0.426093
+Epoch 100 | Train Loss: 0.371955 | Val Loss: 0.398096
+Loaded: train_features_correct_C10119.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10119.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.990788 | Val Loss: 0.892574
+Epoch 020 | Train Loss: 0.452734 | Val Loss: 0.489394
+Epoch 040 | Train Loss: 0.411940 | Val Loss: 0.468601
+Epoch 060 | Train Loss: 0.387490 | Val Loss: 0.423440
+Epoch 080 | Train Loss: 0.389229 | Val Loss: 0.402776
+Early stopping at epoch 88
+Loaded: train_features_correct_C10390.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10390.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.985751 | Val Loss: 0.809312
+Epoch 020 | Train Loss: 0.441048 | Val Loss: 0.441920
+Epoch 040 | Train Loss: 0.395520 | Val Loss: 0.387358
+Epoch 060 | Train Loss: 0.371841 | Val Loss: 0.386622
+Epoch 080 | Train Loss: 0.368656 | Val Loss: 0.338998
+Epoch 100 | Train Loss: 0.381395 | Val Loss: 0.362742
+Loaded: train_features_correct_C10404.npy | shape=(626, 6336) | dtype=float32
+Loaded: test_features_C10404.npy | shape=(839, 6336) | dtype=float32
+Loaded: test_features_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+SLOWFAST | slowfast_medium_regularized | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.986077 | Val Loss: 0.818150
+Epoch 020 | Train Loss: 0.414423 | Val Loss: 0.427672
+Epoch 040 | Train Loss: 0.364354 | Val Loss: 0.357584
+Epoch 060 | Train Loss: 0.352772 | Val Loss: 0.329866
+Epoch 080 | Train Loss: 0.342874 | Val Loss: 0.349049
+Early stopping at epoch 80
+
+====================================================================================================
+FEATURE FAMILY: TSM
+====================================================================================================
+
+====================================================================================================
+MODEL CONFIG: tsm | tsm_small
+====================================================================================================
+Loaded: train_features_correct_tsm_C10095.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10095.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_small | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.970786 | Val Loss: 0.869037
+Epoch 020 | Train Loss: 0.364553 | Val Loss: 0.333200
+Epoch 040 | Train Loss: 0.296017 | Val Loss: 0.278410
+Epoch 060 | Train Loss: 0.280766 | Val Loss: 0.252406
+Epoch 080 | Train Loss: 0.262882 | Val Loss: 0.239611
+Epoch 100 | Train Loss: 0.259558 | Val Loss: 0.246447
+Loaded: train_features_correct_tsm_C10118.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10118.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_small | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.985135 | Val Loss: 0.931114
+Epoch 020 | Train Loss: 0.397065 | Val Loss: 0.384209
+Epoch 040 | Train Loss: 0.323244 | Val Loss: 0.328617
+Epoch 060 | Train Loss: 0.294703 | Val Loss: 0.293641
+Epoch 080 | Train Loss: 0.288620 | Val Loss: 0.287352
+Epoch 100 | Train Loss: 0.273241 | Val Loss: 0.289236
+Loaded: train_features_correct_tsm_C10119.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10119.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_small | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.988389 | Val Loss: 0.891833
+Epoch 020 | Train Loss: 0.352291 | Val Loss: 0.333181
+Epoch 040 | Train Loss: 0.297372 | Val Loss: 0.271200
+Epoch 060 | Train Loss: 0.272752 | Val Loss: 0.281056
+Epoch 080 | Train Loss: 0.269144 | Val Loss: 0.241433
+Early stopping at epoch 93
+Loaded: train_features_correct_tsm_C10390.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10390.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_small | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.969960 | Val Loss: 0.840397
+Epoch 020 | Train Loss: 0.347869 | Val Loss: 0.325994
+Epoch 040 | Train Loss: 0.296384 | Val Loss: 0.290445
+Epoch 060 | Train Loss: 0.272588 | Val Loss: 0.249421
+Epoch 080 | Train Loss: 0.257640 | Val Loss: 0.239838
+Epoch 100 | Train Loss: 0.257490 | Val Loss: 0.228225
+Loaded: train_features_correct_tsm_C10404.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10404.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_small | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.979095 | Val Loss: 0.843974
+Epoch 020 | Train Loss: 0.312633 | Val Loss: 0.281644
+Epoch 040 | Train Loss: 0.266431 | Val Loss: 0.257167
+Epoch 060 | Train Loss: 0.241327 | Val Loss: 0.212925
+Epoch 080 | Train Loss: 0.228028 | Val Loss: 0.203556
+Epoch 100 | Train Loss: 0.221716 | Val Loss: 0.220999
+
+====================================================================================================
+MODEL CONFIG: tsm | tsm_medium
+====================================================================================================
+Loaded: train_features_correct_tsm_C10095.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10095.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.937006 | Val Loss: 0.739646
+Epoch 020 | Train Loss: 0.312081 | Val Loss: 0.285654
+Epoch 040 | Train Loss: 0.268902 | Val Loss: 0.253806
+Epoch 060 | Train Loss: 0.251009 | Val Loss: 0.224043
+Epoch 080 | Train Loss: 0.229812 | Val Loss: 0.216768
+Early stopping at epoch 88
+Loaded: train_features_correct_tsm_C10118.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10118.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.961988 | Val Loss: 0.836992
+Epoch 020 | Train Loss: 0.330699 | Val Loss: 0.324200
+Epoch 040 | Train Loss: 0.286264 | Val Loss: 0.292051
+Epoch 060 | Train Loss: 0.258814 | Val Loss: 0.266232
+Epoch 080 | Train Loss: 0.242290 | Val Loss: 0.257198
+Epoch 100 | Train Loss: 0.232364 | Val Loss: 0.235416
+Loaded: train_features_correct_tsm_C10119.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10119.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.914836 | Val Loss: 0.724794
+Epoch 020 | Train Loss: 0.312113 | Val Loss: 0.296662
+Epoch 040 | Train Loss: 0.262503 | Val Loss: 0.255992
+Epoch 060 | Train Loss: 0.248201 | Val Loss: 0.246450
+Epoch 080 | Train Loss: 0.234164 | Val Loss: 0.217872
+Epoch 100 | Train Loss: 0.226029 | Val Loss: 0.213881
+Loaded: train_features_correct_tsm_C10390.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10390.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.927281 | Val Loss: 0.755048
+Epoch 020 | Train Loss: 0.312450 | Val Loss: 0.313383
+Epoch 040 | Train Loss: 0.259806 | Val Loss: 0.251986
+Epoch 060 | Train Loss: 0.264789 | Val Loss: 0.252164
+Epoch 080 | Train Loss: 0.224324 | Val Loss: 0.216802
+Epoch 100 | Train Loss: 0.220643 | Val Loss: 0.211908
+Loaded: train_features_correct_tsm_C10404.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10404.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.940761 | Val Loss: 0.693157
+Epoch 020 | Train Loss: 0.289043 | Val Loss: 0.263893
+Epoch 040 | Train Loss: 0.229805 | Val Loss: 0.198878
+Epoch 060 | Train Loss: 0.206618 | Val Loss: 0.198578
+Epoch 080 | Train Loss: 0.196039 | Val Loss: 0.215125
+Epoch 100 | Train Loss: 0.187227 | Val Loss: 0.187144
+Early stopping at epoch 109
+
+====================================================================================================
+MODEL CONFIG: tsm | tsm_medium_regularized
+====================================================================================================
+Loaded: train_features_correct_tsm_C10095.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10095.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10095.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium_regularized | Camera: C10095
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.979961 | Val Loss: 0.790907
+Epoch 020 | Train Loss: 0.419062 | Val Loss: 0.406641
+Epoch 040 | Train Loss: 0.347698 | Val Loss: 0.318129
+Epoch 060 | Train Loss: 0.326285 | Val Loss: 0.299328
+Epoch 080 | Train Loss: 0.315344 | Val Loss: 0.298825
+Early stopping at epoch 98
+Loaded: train_features_correct_tsm_C10118.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10118.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10118.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium_regularized | Camera: C10118
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.970196 | Val Loss: 0.810299
+Epoch 020 | Train Loss: 0.444521 | Val Loss: 0.452191
+Epoch 040 | Train Loss: 0.377807 | Val Loss: 0.390852
+Epoch 060 | Train Loss: 0.354956 | Val Loss: 0.367215
+Epoch 080 | Train Loss: 0.328209 | Val Loss: 0.325890
+Epoch 100 | Train Loss: 0.325100 | Val Loss: 0.331191
+Loaded: train_features_correct_tsm_C10119.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10119.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10119.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium_regularized | Camera: C10119
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.975975 | Val Loss: 0.797308
+Epoch 020 | Train Loss: 0.438473 | Val Loss: 0.424026
+Epoch 040 | Train Loss: 0.373703 | Val Loss: 0.365216
+Epoch 060 | Train Loss: 0.342876 | Val Loss: 0.322658
+Epoch 080 | Train Loss: 0.322715 | Val Loss: 0.303280
+Epoch 100 | Train Loss: 0.316811 | Val Loss: 0.292457
+Loaded: train_features_correct_tsm_C10390.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10390.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10390.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium_regularized | Camera: C10390
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.967568 | Val Loss: 0.761554
+Epoch 020 | Train Loss: 0.397119 | Val Loss: 0.378680
+Epoch 040 | Train Loss: 0.340196 | Val Loss: 0.329857
+Epoch 060 | Train Loss: 0.307452 | Val Loss: 0.300916
+Epoch 080 | Train Loss: 0.298156 | Val Loss: 0.293518
+Early stopping at epoch 89
+Loaded: train_features_correct_tsm_C10404.npy | shape=(626, 4064) | dtype=float32
+Loaded: test_features_tsm_C10404.npy | shape=(839, 4064) | dtype=float32
+Loaded: test_features_tsm_window_labels_C10404.npy | shape=(839,) | dtype=int32
+
+------------------------------------------------------------------------------------------
+TSM | tsm_medium_regularized | Camera: C10404
+------------------------------------------------------------------------------------------
+Epoch 000 | Train Loss: 0.966134 | Val Loss: 0.757421
+Epoch 020 | Train Loss: 0.346261 | Val Loss: 0.318791
+Epoch 040 | Train Loss: 0.322420 | Val Loss: 0.328533
+Epoch 060 | Train Loss: 0.288081 | Val Loss: 0.296303
+Epoch 080 | Train Loss: 0.270125 | Val Loss: 0.241409
+Epoch 100 | Train Loss: 0.267947 | Val Loss: 0.255666
+Early stopping at epoch 100
+
+Summary saved: C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001\OptimizedPerCameraAE_Results\optimized_per_camera_summary.csv
+
+Best results by F1:
+tsm | tsm_medium | fusion | camera=ALL | fusion=top2_mean | p=80 | F1=0.7320 | Precision=0.6829 | Recall=0.7887 | AUC=0.907205747798827
+tsm | tsm_medium | fusion | camera=ALL | fusion=top2_mean | p=85 | F1=0.7196 | Precision=0.7163 | Recall=0.7230 | AUC=0.9064707735229266
+tsm | tsm_medium | fusion | camera=ALL | fusion=mean | p=75 | F1=0.7194 | Precision=0.7353 | Recall=0.7042 | AUC=0.9109931152409665
+tsm | tsm_medium | fusion | camera=ALL | fusion=max | p=85 | F1=0.7186 | Precision=0.6667 | Recall=0.7793 | AUC=0.8971485997990071
+tsm | tsm_medium | fusion | camera=ALL | fusion=top2_mean | p=75 | F1=0.7084 | Precision=0.6074 | Recall=0.8498 | AUC=0.9062832800851971
+tsm | tsm_medium | fusion | camera=ALL | fusion=max | p=80 | F1=0.7054 | Precision=0.6154 | Recall=0.8263 | AUC=0.8980860669876555
+tsm | tsm_medium | single_camera | camera=C10119 | fusion= | p=75 | F1=0.6923 | Precision=0.7094 | Recall=0.6761 | AUC=0.8875189368372107
+tsm | tsm_medium | fusion | camera=ALL | fusion=max | p=90 | F1=0.6833 | Precision=0.7287 | Recall=0.6432 | AUC=0.8971111011114611
+tsm | tsm_medium | single_camera | camera=C10095 | fusion= | p=75 | F1=0.6812 | Precision=0.6367 | Recall=0.7324 | AUC=0.8746643867464639
+tsm | tsm_medium | fusion | camera=ALL | fusion=max | p=75 | F1=0.6797 | Precision=0.5473 | Recall=0.8967 | AUC=0.896428624998125
+tsm | tsm_small | fusion | camera=ALL | fusion=top2_mean | p=80 | F1=0.6709 | Precision=0.6092 | Recall=0.7465 | AUC=0.8662271820486284
+tsm | tsm_medium | single_camera | camera=C10118 | fusion= | p=75 | F1=0.6667 | Precision=0.6974 | Recall=0.6385 | AUC=0.8842640507582235
+tsm | tsm_small | fusion | camera=ALL | fusion=top2_mean | p=75 | F1=0.6604 | Precision=0.5500 | Recall=0.8263 | AUC=0.867337143199988
+tsm | tsm_medium | single_camera | camera=C10119 | fusion= | p=80 | F1=0.6580 | Precision=0.7412 | Recall=0.5915 | AUC=0.8875189368372107
+tsm | tsm_medium | fusion | camera=ALL | fusion=mean | p=80 | F1=0.6577 | Precision=0.7722 | Recall=0.5728 | AUC=0.9112331068412606
+tsm | tsm_small | single_camera | camera=C10095 | fusion= | p=75 | F1=0.6505 | Precision=0.6116 | Recall=0.6948 | AUC=0.8564700235491757
+tsm | tsm_medium | single_camera | camera=C10119 | fusion= | p=85 | F1=0.6484 | Precision=0.7815 | Recall=0.5540 | AUC=0.8875189368372107
+tsm | tsm_medium | single_camera | camera=C10390 | fusion= | p=75 | F1=0.6465 | Precision=0.6995 | Recall=0.6009 | AUC=0.8783842565510207
+tsm | tsm_small | fusion | camera=ALL | fusion=max | p=80 | F1=0.6424 | Precision=0.5419 | Recall=0.7887 | AUC=0.8597324093656722
+tsm | tsm_small | fusion | camera=ALL | fusion=max | p=75 | F1=0.6412 | Precision=0.5082 | Recall=0.8685 | AUC=0.8606848760293389
+
+====================================================================================================
+OPTIMIZED PER-CAMERA AE EXPERIMENTS FINISHED
+====================================================================================================
+(venv) PS C:\Users\irem\Documents\Bilgisayar Mühendisliği\8. Dönem 2026\Bitirme\assembly-anomaly-detection\FeatureExtraction\FeatureExtractionOutputs\New\16.05\drive-download-20260517T114328Z-3-001> 
