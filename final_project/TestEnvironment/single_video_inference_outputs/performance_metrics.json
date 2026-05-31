@@ -1,0 +1,14 @@
+{
+    "accuracy": 0.9106078665077473,
+    "precision": 0.76953125,
+    "recall": 0.9248826291079812,
+    "f1_score": 0.8400852878464818,
+    "auroc": 0.9572664956726514,
+    "tn": 567,
+    "fp": 59,
+    "fn": 16,
+    "tp": 197,
+    "total_windows": 839,
+    "detected_anomaly_windows": 256,
+    "true_anomaly_windows": 213
+}

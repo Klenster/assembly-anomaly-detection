@@ -1,0 +1,13 @@
+{
+    "mode": "full final max fusion",
+    "available_cameras": [
+        "C10095",
+        "C10118",
+        "C10119",
+        "C10390",
+        "C10404"
+    ],
+    "num_windows": 839,
+    "threshold_rule": "normalized_score > 1.0",
+    "fusion_method": "max"
+}
