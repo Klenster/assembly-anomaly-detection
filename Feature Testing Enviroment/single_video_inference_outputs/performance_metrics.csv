@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1_score,auroc,tn,fp,fn,tp,total_windows,detected_anomaly_windows,true_anomaly_windows
+0.9106078665077473,0.76953125,0.9248826291079812,0.8400852878464818,0.9572664956726514,567,59,16,197,839,256,213
